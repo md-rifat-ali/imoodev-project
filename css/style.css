@@ -1,0 +1,542 @@
+/* fonts */
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../fonts/Inter-Bold.ttf);
+}
+
+/* common code start */
+body {
+  font-family: "Poppins-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #8e919a;
+}
+
+h1 {
+  font-family: "Inter-Bold";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 58px;
+  text-transform: capitalize;
+  color: #0b254b;
+}
+
+/* common code end */
+
+/* header section start */
+header {
+  padding: 30px 0;
+}
+
+.c_nav {
+}
+
+.logo h3 {
+  font-family: "Inter-Bold";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #0b254b;
+}
+
+.ntoggle:focus {
+  box-shadow: none;
+}
+
+.menu ul li a {
+  margin: 0 25px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0b254b;
+}
+
+.menu ul li a:hover {
+  color: #ff6f29;
+}
+
+.btn_common {
+  width: 175px;
+  padding: 15px 0;
+  font-family: "Poppins-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #0b254b;
+  border-radius: 0;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn_common:hover {
+  background-color: #ff6f29;
+  color: #ffffff;
+}
+
+/* header section end */
+
+/* banner section start */
+.banner-section {
+  margin: 60px 0 140px;
+}
+
+.banner_text h1 {
+  font-size: 48px;
+}
+
+.bg1 {
+  position: relative;
+  display: inline-block;
+}
+
+.bg1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255, 111, 41, 0.3);
+  z-index: -1;
+}
+
+.banner_text p {
+  padding: 25px 300px 35px;
+}
+
+.b_consult {
+  width: 275px;
+  box-shadow: 12px 12px 32px rgba(13, 19, 55, 0.15);
+}
+
+.b_about {
+  margin-left: 30px;
+  width: 275px;
+  background-color: transparent;
+  color: #0b254b;
+  border: 1px solid #0b254b;
+}
+/* banner section end */
+
+/* feature section start */
+.feature-section {
+  margin: 0 0 140px;
+}
+
+.c_title {
+  padding-bottom: 16px;
+  font-family: "Inter-Bold";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ff6f29;
+}
+
+.f_para {
+  padding: 40px 0;
+}
+
+/* single feature start*/
+.feature {
+  padding: 32px 190px 32px 32px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.f4 p {
+  padding-bottom: 64px;
+}
+
+.f_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  padding: 16px;
+  border-radius: 50%;
+  box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.f_icon i {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.edit {
+  background-color: #ff6f29;
+}
+
+.heart {
+  background-color: #00b4d8;
+}
+
+.image {
+  background-color: #7400b8;
+}
+
+.category {
+  background-color: #ff4d6d;
+}
+
+.feature h2 {
+  padding: 32px 0 16px;
+  font-family: "Poppins-Semibold";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #0b254b;
+  transition: all 0.3s ease-in-out;
+}
+
+.feature:hover .f_icon {
+  background-color: #ffffff;
+}
+.feature:hover i {
+  color: #0b254b;
+}
+
+.feature:hover h2 {
+  color: #ffffff;
+}
+
+.feature:hover {
+  color: #ffffff;
+  background-color: #0b254b;
+}
+
+/* single feature end*/
+/* feature section end */
+
+/* about section start */
+
+.about {
+  margin-bottom: 140px;
+}
+
+.a_text {
+  padding: 70px 0;
+}
+
+.a_para {
+  padding: 16px 0 40px;
+}
+
+.a_btn {
+  width: 175px;
+}
+
+/* about section ends */
+
+/* customer section start */
+.customer-section {
+  margin-bottom: 140px;
+  padding: 64px 0;
+  background-color: #0b254b;
+}
+
+.cus_title h1 {
+  margin-bottom: 48px;
+  padding: 0 5px;
+  color: #ffffff;
+}
+
+.item_text {
+  padding: 32px 40px;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.num span {
+  font-family: "Inter-Bold";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #0b254b;
+}
+
+.circle {
+  margin: -45px 0 32px 45px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.c1 {
+  background-color: #ff9191;
+}
+
+.c2 {
+  background-color: #fdeaee;
+}
+
+.c3 {
+  background-color: #c1e5ff;
+}
+
+.item_text h2 {
+  font-family: "Inter-Bold";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #0b254b;
+}
+
+.item1 h2 {
+  padding-right: 100px;
+}
+
+.item_text p {
+  margin: 16px 0 45px;
+}
+
+.link a {
+  color: #0b254b;
+}
+.link i {
+  margin-left: 5px;
+  color: #0b254b;
+  transform: translateX(0);
+  transition: all 0.4s ease-in-out;
+}
+
+.item_text:hover i {
+  transform: translateX(5px);
+}
+
+/* customer section  */
+
+/* news section start */
+.news-section {
+  margin-bottom: 140px;
+}
+
+.n_title h1 {
+  margin-bottom: 40px;
+  font-family: "Poppins-Bold";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #0b254b;
+}
+
+.date {
+  margin-top: 24px;
+}
+
+.date span {
+  font-family: "Poppins-Semibold";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+
+.p_name {
+  margin-left: 24px;
+}
+
+.card {
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-body {
+  padding: 0 23px 40px 32px;
+}
+
+.card-title {
+  margin: 16px 0;
+  font-family: "Poppins-Semibold";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #0b254b;
+}
+
+.card:hover {
+  filter: drop-shadow(30px 30px 74px rgba(0, 0, 0, 0.12));
+}
+
+/* news section end */
+
+/* newsletter section start */
+.newsletter-section {
+  margin-bottom: 140px;
+}
+
+.newsletter {
+  padding: 55px 0;
+  background-color: #ffead9;
+  border-radius: 30px;
+}
+
+.nletter_title {
+  padding: 0 15px;
+}
+
+.form_item {
+  margin-top: 55px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.input_text {
+  padding-top: 13px;
+}
+
+.f_input {
+  border: none;
+}
+
+.f_input:focus {
+  color: #212529;
+  border: 0;
+  border-color: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.input_btn button {
+  padding: 18px 45px;
+  font-family: "Poppins-Semibold";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background-color: #0b254b;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.input_btn button:hover {
+  background-color: #ff6f29;
+}
+/* newsletter section here */
+
+/* contact section start here */
+.contact-section {
+  padding: 40px 0;
+}
+
+.c_info h2 {
+  margin-bottom: 34px;
+  font-family: "Poppins-Semibold";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #0d1337;
+}
+
+.location,
+.mail,
+.call {
+  margin-bottom: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  margin-right: 50px;
+  align-items: start;
+}
+
+.l_icon,
+.m_icon,
+.c_icon {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.l_icon {
+  margin-top: 4px;
+}
+
+.location span,
+.mail span,
+.call span {
+  margin-left: 20px;
+}
+
+.c_feature h2 {
+  font-family: "Poppins-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0b254b;
+}
+
+.c_feature ul li {
+  margin-top: 24px;
+}
+
+.c_feature ul li a {
+  font-family: "Poppins-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0b254b;
+  opacity: 0.5;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.c_feature ul li a:hover {
+  opacity: 1;
+}
+
+/* contact section ends here */
+
+/* message section start */
+.m_image {
+  position: fixed;
+  bottom: 150px;
+  right: 80px;
+}
+.m_image img {
+  padding: 18px;
+  background-color: #0b254b;
+  border-radius: 10px;
+}
+/* message section end */
+
+/* footer section start here */
+footer {
+  padding: 23px 0;
+  background-color: #0d1337;
+  color: #ffffff;
+}
+/* footer section ends here */

@@ -1,0 +1,788 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* common code */
+  body {
+    line-height: 28px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  /* header section start  */
+  header {
+    padding: 10px 0;
+  }
+
+  .menu {
+    text-align: end;
+  }
+
+  .menu ul li a {
+    margin: 0;
+  }
+
+  .btn_started {
+    width: 150px;
+  }
+
+  /* banner section  */
+  .banner-section {
+    margin: 0 0 60px;
+  }
+
+  .banner_text h1 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+
+  .bg1::after {
+    height: 35%;
+    left: 0px;
+    bottom: 5px;
+  }
+
+  .banner_text p {
+    padding: 15px 0 25px;
+    line-height: 25px;
+  }
+
+  .btn_common {
+    width: 135px;
+    padding: 5px 0;
+  }
+
+  .b_about {
+    margin-left: 15px;
+  }
+
+  /* feature section */
+  .feature-section {
+    margin: 0 0 80px;
+  }
+
+  .feature {
+    padding: 20px 5px 20px 20px;
+  }
+
+  .f_title p {
+    padding-bottom: 10px;
+  }
+
+  .c_title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .feature h2 {
+    padding: 20px 0 10px;
+  }
+
+  .f_para {
+    padding: 30px 0;
+  }
+
+  .f4 p {
+    padding-right: 25px;
+  }
+
+  .f4 p {
+    padding-bottom: 30px;
+  }
+
+  /* about section start */
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .a_text {
+    padding: 0;
+  }
+
+  .a_text h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .a_title {
+    margin-top: 40px;
+    padding-bottom: 5px;
+  }
+
+  .a_title2 {
+    margin-top: 40px;
+  }
+
+  /* customer section start */
+  .customer-section {
+    margin-bottom: 60px;
+    padding: 30px 0 30px;
+  }
+
+  .cus_title h1 {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .item_text {
+    margin-bottom: 30px;
+    padding: 25px 30px;
+  }
+
+  .item_text p {
+    margin: 10px 0 25px;
+  }
+
+  .circle {
+    margin: -45px 0 20px 45px;
+  }
+
+  .item2 p {
+    margin: 10px 0 18px;
+  }
+
+  /* news section */
+  .news-section {
+    margin-bottom: 60px;
+  }
+
+  .n_title h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .date {
+    margin-top: 10px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card-body {
+    padding: 0px 0 15px 10px;
+  }
+
+  .card-title {
+    margin: 10px 0;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  /* newsletter section start */
+  .newsletter-section {
+    margin-bottom: 60px;
+  }
+
+  .newsletter {
+    padding: 40px 0;
+  }
+
+  .nletter_title {
+    padding: 0px 5px;
+  }
+
+  .form_item {
+    margin-top: 30px;
+    padding: 5px 74px 5px 0px;
+  }
+
+  .input_text {
+    padding-top: 3px;
+  }
+
+  .f_input {
+    font-size: 15px;
+  }
+
+  .input_btn button {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+
+  /* contact section start */
+  .contact-section {
+    padding: 0 0 40px;
+  }
+
+  .c_info h2 {
+    margin-bottom: 10px;
+  }
+
+  .location span,
+  .mail span,
+  .call span {
+    margin-left: 5px;
+  }
+
+  .call {
+    margin-left: 0;
+  }
+
+  .l_feature {
+    margin-top: 25px;
+  }
+
+  .c_feature ul li {
+    margin-top: 10px;
+  }
+
+  /* message section */
+
+  .m_image img {
+    padding: 12px;
+  }
+
+  .m_image {
+    position: fixed;
+    bottom: 70px;
+    right: 60px;
+  }
+
+  /* footer section start here */
+  footer {
+    padding: 15px 0;
+  }
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* common code */
+  body {
+    line-height: 28px;
+  }
+
+  /* header section start  */
+  header {
+    padding: 20px 0;
+  }
+
+  .menu {
+    text-align: end;
+  }
+
+  .menu ul li a {
+    margin: 0;
+  }
+
+  .btn_started {
+    width: 150px;
+  }
+
+  /* banner section  */
+  .banner-section {
+    margin: 0px 0 80px;
+  }
+
+  .banner_text h1 {
+    font-size: 42px;
+  }
+
+  .banner_text p {
+    padding: 25px 65px 35px;
+  }
+
+  .btn_common {
+    padding: 10px 0;
+  }
+
+  .b_consult,
+  .b_about {
+    width: 200px;
+  }
+
+  /* feature section */
+  .feature-section {
+    margin: 0 0 100px;
+  }
+
+  .feature {
+    padding: 32px 5px 32px 32px;
+  }
+
+  .f_title h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .f_title p {
+    padding-bottom: 10px;
+  }
+
+  .f_para {
+    padding: 30px 0;
+  }
+
+  .f4 p {
+    padding-right: 25px;
+  }
+
+  .f4 p {
+    padding-bottom: 30px;
+  }
+
+  /* about section start */
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .a_text {
+    padding: 0;
+  }
+
+  .a_title {
+    margin-top: 40px;
+    padding-bottom: 5px;
+  }
+
+  .a_title2 {
+    margin-top: 40px;
+  }
+
+  /* customer section start */
+  .customer-section {
+    margin-bottom: 80px;
+    padding: 40px 0 30px;
+  }
+
+  .cus_title h1 {
+    margin-bottom: 25px;
+    padding: 0;
+  }
+
+  .item_text {
+    margin: 0px 20px 40px 20px;
+    padding: 25px 30px;
+  }
+
+  .circle {
+    margin: -45px 0 20px 45px;
+  }
+
+  .item1 h2 {
+    padding-right: 170px;
+  }
+  .item3 h2 {
+    padding-right: 70px;
+  }
+
+  .item_text p {
+    margin: 10px 0 25px;
+    line-height: 25px;
+  }
+
+  /* news section */
+  .news-section {
+    margin-bottom: 70px;
+  }
+
+  .card {
+    margin: 0 50px 30px;
+  }
+  .card-body {
+    padding: 0 23px 10px 32px;
+  }
+
+  /* newsletter section start */
+  .newsletter-section {
+    margin-bottom: 80px;
+  }
+
+  .nletter_title {
+    padding: 0px 45px;
+  }
+
+  .form_item {
+    margin-top: 40px;
+    padding: 10px 65px 10px 10px;
+  }
+
+  .input_text {
+    padding-top: 7px;
+  }
+
+  .input_btn button {
+    padding: 12px 30px;
+  }
+
+  /* contact section start */
+  .contact-section {
+    padding: 0 0 40px;
+  }
+
+  .c_info h2 {
+    margin-bottom: 10px;
+  }
+
+  .location,
+  .mail,
+  .call {
+    display: block;
+  }
+
+  .location span,
+  .mail span,
+  .call span {
+    margin-left: 5px;
+  }
+
+  .c_feature ul li {
+    margin-top: 10px;
+  }
+
+  /* message section */
+
+  .m_image img {
+    padding: 12px;
+  }
+
+  .m_image {
+    position: fixed;
+    bottom: 70px;
+    right: 60px;
+  }
+
+  /* footer section start here */
+  footer {
+    padding: 15px 0;
+  }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header section start  */
+  header {
+    padding: 20px 0;
+  }
+
+  .menu {
+    text-align: end;
+  }
+
+  .menu ul li a {
+    margin: 0;
+  }
+
+  .btn_started {
+    width: 150px;
+  }
+
+  /* banner section  */
+  .banner-section {
+    margin: 30px 0 100px;
+  }
+
+  .banner_text h1 {
+    font-size: 42px;
+  }
+
+  .banner_text p {
+    padding: 25px 35px 35px;
+  }
+
+  .btn_common {
+    padding: 10px 0;
+  }
+
+  .b_consult,
+  .b_about {
+    width: 200px;
+  }
+
+  /* feature section */
+
+  .feature-section {
+    margin: 0 0 100px;
+  }
+
+  .feature {
+    padding: 32px 5px 32px 32px;
+  }
+
+  .f_title p {
+    padding-bottom: 10px;
+  }
+
+  .f_para {
+    padding: 30px 0;
+  }
+
+  .f4 p {
+    padding-right: 25px;
+  }
+
+  .f4 p {
+    padding-bottom: 47px;
+  }
+
+  /* about section start */
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .a_text {
+    padding: 0;
+  }
+
+  .a_title {
+    margin-top: 40px;
+    padding-bottom: 5px;
+  }
+
+  .a_title2 {
+    margin-top: 40px;
+  }
+
+  /* customer section start */
+  .customer-section {
+    margin-bottom: 100px;
+    padding: 64px 0 25px;
+  }
+
+  .cus_title h1 {
+    padding: 0;
+  }
+
+  .item_text {
+    margin: 0 80px 40px 80px;
+    padding: 32px 40px;
+  }
+
+  .item_text p {
+    margin: 10px 0 15px;
+    line-height: 25px;
+  }
+
+  .circle {
+    margin: -45px 0 20px 45px;
+  }
+  .item1 h2 {
+    padding-right: 200px;
+  }
+
+  .item3 h2 {
+    padding-right: 100px;
+  }
+
+  /* news section */
+  .news-section {
+    margin-bottom: 70px;
+  }
+
+  .card {
+    margin: 0 50px 30px;
+  }
+
+  /* newsletter section start */
+  .newsletter-section {
+    margin-bottom: 100px;
+  }
+
+  .nletter_title {
+    padding: 0px 45px;
+  }
+
+  .form_item {
+    margin-top: 40px;
+    padding: 10px 40px 10px 10px;
+  }
+
+  /* contact section start */
+  .c_info h2 {
+    margin-bottom: 10px;
+  }
+
+  .location span,
+  .mail span,
+  .call span {
+    margin-left: 5px;
+  }
+
+  .call {
+    margin-left: 50px;
+  }
+
+  .c_feature ul li {
+    margin-top: 10px;
+  }
+
+  /* message section */
+  .m_image img {
+    padding: 15px;
+  }
+
+  .m_image {
+    position: fixed;
+    bottom: 70px;
+    right: 60px;
+  }
+
+  /* footer section start here */
+  footer {
+    padding: 15px 0;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* common code */
+  body {
+    line-height: 28px;
+  }
+  /* header section start  */
+  header {
+    padding: 20px 0;
+  }
+
+  /* banner section  */
+  .banner-section {
+    margin: 40px 0 100px;
+  }
+
+  .banner_text h1 {
+    font-size: 42px;
+  }
+
+  .banner_text p {
+    padding: 25px 180px 35px;
+  }
+
+  .btn_common {
+    padding: 10px 0;
+  }
+
+  .b_consult,
+  .b_about {
+    width: 230px;
+  }
+
+  /* feature section */
+  .feature-section {
+    margin: 0 0 120px;
+  }
+
+  h1 {
+    font-size: 41px;
+    line-height: 50px;
+  }
+
+  .feature {
+    padding: 32px 40px 32px 32px;
+  }
+
+  .f4 p {
+    padding-bottom: 48px;
+  }
+
+  /* about section start */
+  .about {
+    margin-bottom: 100px;
+  }
+
+  .a_text {
+    padding: 0;
+  }
+
+  .a_title {
+    padding-bottom: 5px;
+  }
+
+  .a_para {
+    padding: 10px 0 20px;
+  }
+
+  /* customer section start */
+  .customer-section {
+    margin-bottom: 120px;
+  }
+
+  .cus_title h1 {
+    padding: 0;
+  }
+
+  .item_text {
+    padding: 20px 25px;
+  }
+
+  .circle {
+    margin: -45px 0 20px 45px;
+  }
+
+  .item2 p {
+    margin: 10px 0 18px;
+  }
+
+  /* news section start */
+  .news-section {
+    margin-bottom: 120px;
+  }
+
+  .date {
+    margin-top: 10px;
+  }
+
+  .card-body {
+    padding: 0 0px 25px 10px;
+  }
+
+  .card-title {
+    margin: 10px 0;
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  /* newsletter section */
+  .newsletter-section {
+    margin-bottom: 120px;
+  }
+
+  .form_item {
+    margin-top: 40px;
+    padding: 7px 40px 7px 0px;
+  }
+
+  .input_text {
+    padding-top: 10px;
+  }
+
+  .input_btn button {
+    padding: 15px 30px;
+  }
+
+  /* message section */
+  .m_image {
+    bottom: 80px;
+    right: 70px;
+  }
+}
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* feature section */
+  h1 {
+    font-size: 41px;
+  }
+
+  .feature {
+    padding: 32px 100px 32px 32px;
+  }
+
+  .f4 p {
+    padding-bottom: 32px;
+  }
+
+  /* about section */
+  .a_text {
+    padding: 70px 0 0;
+  }
+
+  /* newsletter section */
+  .form_item {
+    padding: 10px 52px 10px 10px;
+  }
+}
+
+/* Extra  Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
